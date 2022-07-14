@@ -1,0 +1,186 @@
+/* Start Hero Section RTL  */
+
+nav .nav-content .nav-links-content .nav-list-ul li a {
+    font-size: 18px;
+}
+
+.hero-text-box {
+    transform: translateY(66%);
+}
+
+.hero-text-box .hero-min-title {
+    left: initial;
+}
+
+@media (max-width: 768px) {
+    nav .nav-content .nav-links-content .nav-list-ul {
+        right: initial;
+        left: -100%;
+    }
+}
+
+.nav-list-ul .c-btn-list {
+    right: 30px;
+    left: 0;
+}
+
+.people-happen .phimg {
+    right: initial;
+    left: 0;
+}
+
+.incubator .inc-bg {
+    left: 0;
+    right: 7px;
+}
+
+@media (max-width: 576px) {
+    .lang-list {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+    .more-div {
+        margin-right: 2px;
+    }
+}
+
+
+/* End Hero Section RTL  */
+
+
+/* Start Second Section RTL  */
+
+.columns-section .ss-box-body,
+.columns-section .ss-box-body .ss-box-title {
+    text-align: right;
+}
+
+.columns-section .ss-box-body .ss-box-title {
+    font-size: 25px;
+}
+
+.columns-section .ss-box-body .ss-box-info {
+    font-size: 18px;
+}
+
+@media (max-width: 576px) {
+    .columns-section .ss-box-body .ss-box-title {
+        font-size: 21px;
+    }
+}
+
+
+/* End Second Section RTL  */
+
+
+/* Start Success Section  */
+
+.success-section {
+    background-image: url(../images/succeess-bg-rtl.webp);
+}
+
+@media (min-width: 992px) {
+    .success-info {
+        right: 0;
+        left: 42%;
+    }
+}
+
+.success-section .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    left: 0;
+    right: 8px;
+}
+
+.success-section .success-img-box svg {
+    left: 0;
+    right: 8%;
+}
+
+.success-info p {
+    text-align: right;
+}
+
+.our-mission .our-mission-content .our-mission-info .missioin-text {
+    text-align: right;
+}
+
+@media (max-width: 1199px) {
+    .our-mission .our-mission-content .our-mission-info {
+        padding: 50px 40px 0 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .our-mission .our-mission-content .our-mission-info {
+        padding: 40px 0 0;
+    }
+}
+
+.programs-box .prog-box-dot {
+    left: 0;
+    right: -38px;
+}
+
+.our-program-section .programs-box .prog-content {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.our-program-section .programs-box .prog-content .prog-name,
+.our-program-section .programs-box .prog-content .prog-info {
+    text-align: right;
+}
+
+.our-program-section .programs-box .prog-content .more-div {
+    margin-right: calc(100% - 160px);
+    margin-left: 0;
+}
+
+
+/* End Success Section  */
+
+
+/* Start Footer  */
+
+.inc-textt {
+    text-align: right;
+}
+
+.footer-top-section,
+footer .footer-text {
+    text-align: right;
+}
+
+footer .cont-way {
+    align-items: end;
+    direction: ltr;
+}
+
+.footer-top-section .footer-follow-box {
+    text-align: right;
+}
+
+
+/* End Footer  */
+
+
+/* Start Products Page  */
+
+.go-startup .start-min-title,
+.go-startup .startup-text,
+.go-startup .startup-title {
+    text-align: right;
+}
+
+
+/* End Products Page  */
+
+
+/* Start Classes  */
+
+.sec-title {
+    text-align: right;
+}
+
+
+/* End Classes  */
